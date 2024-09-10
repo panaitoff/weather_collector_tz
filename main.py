@@ -1,9 +1,7 @@
-# weather_data_collector.py
 import asyncio
 import aiohttp
 import pandas as pd
 from datetime import datetime
-from sqlalchemy.orm import Session
 from models import WeatherData, SessionLocal
 import config
 
